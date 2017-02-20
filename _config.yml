@@ -2,7 +2,7 @@
 title: IngoWaldmann.com
 email: ""
 description: "HomePage"
-url: "https://yourusername.github.io"
+url: "https://ingo1807.github.io"
 baseurl: "/photorama"
 facebook_username: ""
 twitter_username: ""
@@ -15,7 +15,7 @@ share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   Ingo
   avatar: avatar.png
   favicon: favicon.ico
   info: Ingo Waldmann Website
