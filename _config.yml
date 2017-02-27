@@ -1,17 +1,17 @@
 # Site settings
 title: IngoWaldmann.com
 email: ""
-description: "HomePage"
+description: "Ingo's Homepage"
 url: "https://ingo1807.github.io"
 baseurl: "/photorama"
-facebook_username: ""
-twitter_username: ""
+facebook_username: "ingo1807@gmail.com"
+twitter_username: "ingowaldmann"
 instagram_username: ""
-github_username:  ""
+github_username:  "ingo1807"
 deviantart_username: ""
 flickr_username: ""
 discus_shortname: ""
-share: true
+share: false
 
 # Owner/author information
 owner:
