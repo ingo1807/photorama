@@ -33,7 +33,7 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://ingo1807.github.io/photorama/gallery/"  
+  #- GALLERY: "https://ingo1807.github.io/photorama/gallery/"  
   - JOURNAL: "https://ingo1807.github.io/photorama/journal/"
   - ABOUT: "https://ingo1807.github.io/photorama/about/"
 
