@@ -1,0 +1,15 @@
+---
+layout:     post
+title:      "TauREx"
+subtitle:   "Spectral Retrieval"
+active: journal
+image:
+  feature: "3planets.jpg"
+date:       2017-03-30 
+header-img: "img/postcover/3planets.jpg"
+tags: [tag02]
+categories: [modelling]
+comments: false
+---
+
+<p>STUFF</p>

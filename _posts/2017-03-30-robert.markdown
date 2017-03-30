@@ -1,0 +1,15 @@
+---
+layout:     post
+title:      "Dreaming of Atmospheres"
+subtitle:   "Deep learning in Exoplanet Characterisation"
+active: journal
+image:
+  feature: "robert_planet.jpg"
+date:       2017-03-30 
+header-img: "img/postcover/robert_planet.jpg"
+tags: [tag03]
+categories: [modelling,learning]
+comments: false
+---
+
+<p>STUFF</p>

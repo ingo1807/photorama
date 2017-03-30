@@ -1,0 +1,15 @@
+---
+layout:     post
+title:      "Ariel"
+subtitle:   "Space Mission"
+active: journal
+image:
+  feature: "ariel2.jpg"
+date:       2017-03-30 
+header-img: "img/postcover/ariel.jpg"
+tags: [tag01]
+categories: [spacemission]
+comments: false
+---
+
+<p>STUFF</p>

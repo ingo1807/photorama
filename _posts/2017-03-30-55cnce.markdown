@@ -1,0 +1,15 @@
+---
+layout:     post
+title:      "55 Cnc e"
+subtitle:   "An atmosphere around a super-Earth"
+active: journal
+image:
+  feature: "55cnce.jpg"
+date:       2017-03-30
+header-img: "img/postcover/55cnce.jpg"
+tags: [tag04]
+categories: [observations,spectroscopy]
+comments: false
+---
+
+<p>STUFF</p>

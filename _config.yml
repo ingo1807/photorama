@@ -3,7 +3,7 @@ title: IngoWaldmann.com
 email: ""
 description: "Ingo's Homepage"
 url: "/"
-baseurl: "/photorama"
+baseurl: "/"
 facebook_username: "ingo1807@gmail.com"
 twitter_username: "ingowaldmann"
 github_username:  "ingo1807"
@@ -36,8 +36,8 @@ nav:
  # - PUBLICATIONS: "https://ingo1807.github.io/photorama/publications/"
  # - MEDIA: "https://ingo1807.github.io/photorama/about/"
   
-  - PROJECTS: "./journal/"
   - ABOUT ME: "./about/"
+  - PROJECTS: "./journal/"
   - PUBLICATIONS: "./publications/"
   - MEDIA: "./media/"  
 
@@ -77,28 +77,3 @@ sitemap:
     change_frequency_name: "change_frequency"
     priority_name: "priority"
 
-#scholar
-gems: ['jekyll/scholar']
-
-scholar:
-  style: apa
-  locale: en
-
-  sort_by: year
-  order: descending
-  bibliography_list_tag: ul
-
-  source: _bibliography
-  repository: pdf
-  bibliography: references
-  bibliography_template: bibliography
-
-  replace_strings: true
-
-  details_dir:    bibliography
-  details_layout: bibtex.html
-  details_link:   Details
-
-  query: "@*"
-
- # query: "@*"  
