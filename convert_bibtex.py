@@ -3,18 +3,38 @@ import string as str
 import bibtexparser
 
 FILENAME = '_bibliography/ref.bib'
-OUTFILE = '_includes/test.html'
+OUTFILE = '_includes/bib.html'
 
-def write_entry(ar,f):
+def format_authors(al):
+    al = np.str(al)
+    al = al.replace("and",";")
+    al = al.replace("{","")
+    al = al.replace("}","")
+    al = al.replace("~","")
+    return al
+
+def format_journal(jl):
+    jl = np.str(jl)
+    jl = jl.replace("\\apj","Astrophysical Journal")
+    jl = jl.replace("\\apjl","Astrophysical Journal Letters")
+    jl = jl.replace("\\mnras","Mon. Notice of Royal Astron. Soc.")
+    jl = jl.replace("\\procspie","Proc. of SPIE")
+    jl = jl.replace("\\nat","Nature")
+    jl = jl.replace("\\natast","Nature Astronomy")
+    jl = jl.replace("\\sci","Science")
+    return jl
+
+
+def write_entry(ar,f,year=False):
     #writing the HTML code for each entry
     
-    if ar['journal'] == '\mnras':
-        journal = 'Monthly Notices of the Royal Astronomical Society'
-    elif ar['journal'] == '\apj' or ar['journal'] == 'ApJ' or ar['journal'] == 'APJ':
-        journal = 'Astrophysical Journal'
-    else: 
-        journal = ar['journal']
+    try:
+        journal = format_journal(ar['journal'])
+    except KeyError:
+        journal = ''
     
+    if year: 
+        f.write('<h2> '+np.str(year)+'</h2>')
     f.write('<li>')
     f.write('<p style="margin-left: 40px;font-weight: bold">')
     
@@ -28,7 +48,7 @@ def write_entry(ar,f):
         
     f.write('</p> \n')
     f.write('<p style="margin-left: 70px;line-height: 95%;">')
-    f.write(ar['author'])
+    f.write(format_authors(ar['author']))
     f.write('<br>')
 #     f.write('</p>')
     f.write('<font color="grey">')
@@ -63,6 +83,11 @@ sort_years = np.argsort(years)[::-1]
 
 # print(data.entries[2]['link'])
 
+yearold = 3000
 for i in sort_years:
-    write_entry(data.entries[i],out)
+    if years[i] < yearold:
+        yearold = years[i]
+        write_entry(data.entries[i],f=out,year=yearold)
+    else:
+        write_entry(data.entries[i],f=out)
     
