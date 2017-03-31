@@ -1,16 +1,12 @@
 # Site settings
 title: Ingo Waldmann
-email: ""
+email: "ingo1807@gmail.com"
 description: "Ingo Waldmann"
 url: "https://ingo1807.github.io"
 baseurl: "/website"
-facebook_username: ""
-twitter_username: ""
-instagram_username: ""
-github_username:  ""
-deviantart_username: ""
-flickr_username: ""
-discus_shortname: ""
+facebook_username: "ingo1807@gmail.com"
+twitter_username: "ingowaldmann"
+github_username:  "ingo1807"
 share: true
 
 # Owner/author information
