@@ -2,7 +2,7 @@
 title: IngoWaldmann.com
 email: ""
 description: "Ingo's Homepage"
-url: ""
+url: "https://ingo1807.github.io"
 baseurl: ""
 facebook_username: "ingo1807@gmail.com"
 twitter_username: "ingowaldmann"
@@ -36,11 +36,11 @@ nav:
  # - PUBLICATIONS: "https://ingo1807.github.io/photorama/publications/"
  # - MEDIA: "https://ingo1807.github.io/photorama/about/"
   
-  - ABOUT ME: "./about/"
-  - PROJECTS: "./journal/"
-  - PUBLICATIONS: "./publications/"
-  - MEDIA: "./media/"  
-  - SOFTWARE: "./software/"
+  - ABOUT ME: "https://ingo1807.github.io/about/"
+  - PROJECTS: "https://ingo1807.github.io/journal/"
+  - PUBLICATIONS: "https://ingo1807.github.io/publications/"
+  - MEDIA: "https://ingo1807.github.io/media/"  
+  - SOFTWARE: "https://ingo1807.github.io/software/"
 
 
 # All translation keys
