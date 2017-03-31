@@ -1,21 +1,24 @@
 # Site settings
-title: IngoWaldmann.com
-email: "ingo1807@gmail.com"
-description: "Ingo's Homepage"
+title: Ingo Waldmann
+email: ""
+description: "Ingo Waldmann"
 url: "https://ingo1807.github.io"
 baseurl: "/website"
-facebook_username: "ingo1807@gmail.com"
-twitter_username: "ingowaldmann"
-github_username:  "ingo1807"
+facebook_username: ""
+twitter_username: ""
+instagram_username: ""
+github_username:  ""
+deviantart_username: ""
+flickr_username: ""
+discus_shortname: ""
 share: true
-save: true
 
 # Owner/author information
 owner:
-  name:   Ingo
+  name:   ingo waldmann
   avatar: avatar.png
   favicon: favicon.ico
-  info: Ingo Waldmann Website
+  info: ingo's website
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -33,7 +36,7 @@ nav:
   - ABOUT ME: "https://ingo1807.github.io/website/about/"
   - PROJECTS: "https://ingo1807.github.io/website/journal/"
   - PUBLICATIONS: "https://ingo1807.github.io/website/publications/"
-  - MEDIA: "https://ingo1807.github.io/website/media/"  
+  - PRESS: "https://ingo1807.github.io/website/media/"  
   - SOFTWARE: "https://ingo1807.github.io/website/software/"
 
 
@@ -43,8 +46,8 @@ translations:
   permalink: "/404.html"
 
 # Server
-destination:      	 ./_site
-port:             	 4000
+destination:         ./_site
+port:                4000
 
 
 # Build settings
@@ -71,4 +74,3 @@ sitemap:
         - "/writing/"
     change_frequency_name: "change_frequency"
     priority_name: "priority"
-
