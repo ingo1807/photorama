@@ -21,7 +21,7 @@ During its 4-year mission, ARIEL will observe over 1000 exoplanets ranging from 
 Hot exoplanets represent a natural laboratory in which to study the chemistry and formation of exoplanets. In cooler planets, different gases separate out through condensation and sinking into distinct cloud layers. The scorching heat experienced by hot exoplanets overrides these processes and keeps all molecular species circulating throughout the atmosphere.
 
 <div style="margin-left:auto;margin-right:auto;;display:block">
-<img class="left" src="{{baseurl}}/img/ariel_figure.pdf" width="50%">
+<img class="left" src="{{site.baseurl}}/img/ariel_figure.pdf" width="50%">
 </div>
 
 ARIEL will have a meter-class mirror to collect infrared light from distant star systems and to focus it to a spectrometer. This will spread the light into a ‘rainbow’ and extract the chemical fingerprints of gases in the planets’ atmospheres, as the planet passes in front or behind the star.

@@ -20,7 +20,7 @@ Our analysis of 55 Cancri e’s atmosphere suggests that the planet has managed 
 Super-Earths are thought to be the most common planetary type in our galaxy and are so-called because they have a mass larger than Earth but are still much smaller than the gas giants in the Solar System. The Wide Field Camera 3 (WFC3) on Hubble has already been used to probe the atmosphere of two super-Earths, but no spectral features were found in these previous studies.
 
 <div style="margin-left:auto;margin-right:auto;;display:block">
-<img class="left" src="{{baseurl}}/img/55cnc_figure.jpg"  width="50%">
+<img class="left" src="{{site.baseurl}}/img/55cnc_figure.jpg"  width="50%">
 </div>
 55 Cancri e has a year that lasts 18 hours and temperatures on the surface are thought to reach around 2000 degrees Celsius. The planet is located in a solar system around 55 Cancri, a star in the Cancer constellation that is around 40 light-years from Earth. Because 55 Cancri is such a bright star, the team were able to use new analysis techniques to extract information about its planetary companion. 
 

@@ -23,7 +23,7 @@ Precision and statistical rigour is paramount in the measurement of quantities s
 Below is a typical analysis (taken from a recent proposal) of what TauREx is all about. On the top left, we have simulations of three exoplanet spectra with varying compositions. TauREx will take these observed spectra and produce the probability distribution below, showing the abundance of individual molecules in the atmosphere.
 This is of course not always so clear and easy, in fact, many parameter in the atmospheric model are correlated and we need to map those correlations in order to understand what is happening in the atmosphere. There are shown in the B) part of the plots below.  
 
-<img src='{{baseurl}}/img/taurex_figure.jpg'>
+<img src='{{site.baseurl}}/img/taurex_figure.jpg'>
 
 We will continue to develop TauREx in the future and combine it with GPU cluster computing and deep learning to speed up the computation times. This will allow us to investigate even the most correlated parameter spaces in the future. 
 We plan to make TauREx public in the very near future. It will be hosted on its own server but I will add a link to the project in the software page, once all is ready. 
