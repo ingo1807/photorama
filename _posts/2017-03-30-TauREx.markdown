@@ -12,4 +12,25 @@ categories: [modelling]
 comments: false
 ---
 
-<p>STUFF</p>
+TauREx is an active project and in many ways, our bread-and-butter code. Spectroscopy of extrasolar planets is as fast moving as it is new. 
+When trying to characterise the atmospheres of these foreign worlds, we are faced with three challenges: 1) The correct treatment of atmospheric opacities at high temperatures, 2) Low signal-to-noise of the observed data, and 3) Large, degenerate parameter spaces. 
+To advance in the interpretation of exoplanetary atmospheres, one must address these challenges in one coherent framework. This is particularly true for emission spectroscopy, where the need for non-isothermal temperature-pressure profiles significantly increases degeneracies in low signal-to-noise data.  
+
+In the light of these challenges, we developed a novel, bayesian atmospheric retrieval suite, Tau-REx (papers <a href="https://arxiv.org/abs/1409.2312" target="_blank">here</a> and <a href="https://arxiv.org/abs/1508.07591" target="_blank">here</a>). Tau-REx is a full line-by-line emission/transmission spectroscopy retrieval code based on the most complete hot line-lists from the <a href="http://exomol.com" target="_blank">ExoMol project</a>. 
+For emission spectroscopy, the correct retrieval of the atmosphere’s thermal gradient is extremely challenging with sparse and/or low SNR data. Tau-REx implements a novel two-stage retrieval algorithm which allows the code to iteratively adapt its retrieval complexity to the likelihood surface of the observed data. This way we achieve a very high retrieval accuracy and robustness to low SNR data. Using nested-sampling in conjunction with large scale cluster computing, Tau-REx integrates the full Bayesian Evidence, which allows for precise model selection of the exoplanet’s chemistry and thermal dynamics. 
+Precision and statistical rigour is paramount in the measurement of quantities such as the carbon-oxygen ratio of planets which allow insights into the formation history of these exotic worlds. 
+
+Below is a typical analysis (taken from a recent proposal) of what TauREx is all about. On the top left, we have simulations of three exoplanet spectra with varying compositions. TauREx will take these observed spectra and produce the probability distribution below, showing the abundance of individual molecules in the atmosphere.
+This is of course not always so clear and easy, in fact, many parameter in the atmospheric model are correlated and we need to map those correlations in order to understand what is happening in the atmosphere. There are shown in the B) part of the plots below.  
+
+<img src='{{baseurl}}/img/taurex_figure.jpg'>
+
+We will continue to develop TauREx in the future and combine it with GPU cluster computing and deep learning to speed up the computation times. This will allow us to investigate even the most correlated parameter spaces in the future. 
+We plan to make TauREx public in the very near future. It will be hosted on its own server but I will add a link to the project in the software page, once all is ready. 
+
+<br>
+<hr class="medium">
+<center><b> Image credits & explanation </b>
+<p> I made the top image for a recent proposal. It shows three super-Earths, 55 Cnc e, GJ 1214b and Kepler 186f. Though all these are comparable in size, they are expected to be very differnt in nature. We think of GJ 1214b as a mini-Neptune or potentially a pure ocean planet. Kepler 186f could be similar to Venus and 55 Cnc e is a molten hot lava planet at over 2000 K temperature. 
+Spectroscopy of their atmospheres will allow us to constrain what they are and pontentially help us to explain how they were formed.  </p>
+</center>

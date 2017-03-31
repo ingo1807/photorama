@@ -2,8 +2,8 @@
 title: IngoWaldmann.com
 email: ""
 description: "Ingo's Homepage"
-url: "/"
-baseurl: "/"
+url: ""
+baseurl: ""
 facebook_username: "ingo1807@gmail.com"
 twitter_username: "ingowaldmann"
 github_username:  "ingo1807"
@@ -40,6 +40,7 @@ nav:
   - PROJECTS: "./journal/"
   - PUBLICATIONS: "./publications/"
   - MEDIA: "./media/"  
+  - SOFTWARE: "./software/"
 
 
 # All translation keys

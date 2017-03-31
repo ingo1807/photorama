@@ -21,7 +21,7 @@ h6 {
   font-weight: 800;
 }
 a {
-  color: #760824;
+  color: #e61a1a;
   transition: color .4s;
   text-decorarion: none;
 }
@@ -37,6 +37,37 @@ a img:focus {
   cursor: zoom-in;
   outline: none;
 }
+
+a.light {
+  color: #fff;
+  transition: color .4s;
+  text-decorarion: none;
+}
+
+a.light:link {
+  color: #fff;
+  transition: color .4s;
+  text-decorarion: none;
+}
+a.light:hover,
+a.light:focus {
+  color: #e61a1a;
+     transition: color .3s;
+    outline: none;
+    text-shadow:none;
+}
+
+img.center {
+    position: absolute;
+    margin: auto;
+}
+
+img.left {
+    float: left;
+    margin:20px 20px 10px 10px;
+}
+
+
 blockquote {
   color: #808080;
   font-style: italic;

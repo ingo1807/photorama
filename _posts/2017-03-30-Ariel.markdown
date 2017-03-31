@@ -12,4 +12,25 @@ categories: [spacemission]
 comments: false
 ---
 
-<p>STUFF</p>
+The ARIEL space-mission is a proposal for the M4 (medium missions) call of the European Space Agency. <a href="http://ariel-spacemission.eu/press-releases/ariel_2015-07-16.html" target="_blank"> Here </a> is the link to the official website. 
+It is a UK-led consortium (PI: Giovanna Tinetti) with participation of 12 European Countries and ~50 institutes. ARIEL stands in competition with two other space-mission proposals for a possible launch in the mid-2020's. 
+We have just submitted the so-called yellow book as part of the final selection and a decision on the selection is expected within 2017. 
+
+During its 4-year mission, ARIEL will observe over 1000 exoplanets ranging from Jupiter- and Neptune-size down to super-Earths in a wide variety of environments. While some of the planets known by the time of ARIEL’s launch may be habitable, the main focus of the mission will be on exotic, hot planets in orbits very close to their star.
+
+Hot exoplanets represent a natural laboratory in which to study the chemistry and formation of exoplanets. In cooler planets, different gases separate out through condensation and sinking into distinct cloud layers. The scorching heat experienced by hot exoplanets overrides these processes and keeps all molecular species circulating throughout the atmosphere.
+
+<div style="margin-left:auto;margin-right:auto;;display:block">
+<img class="left" src="{{baseurl}}/img/ariel_figure.pdf" width="50%">
+</div>
+
+ARIEL will have a meter-class mirror to collect infrared light from distant star systems and to focus it to a spectrometer. This will spread the light into a ‘rainbow’ and extract the chemical fingerprints of gases in the planets’ atmospheres, as the planet passes in front or behind the star.
+
+The figure on the left shows the atmospheric emission spectrum obtained for the hot super-Earth 55 Cnc e with three instruments. The currently operational Hubble Space Telescope (HST) WFC3 camera, The Spitzer Space Telescope IRAC camera and ARIEL. 
+Compared to current state-of-the-art instruments, ARIEL will be able constrain the abundance of molecules such as water in a hot-Jupiter atmosphere with a 25 - 30 times higher precision than what is possible at the moment. 
+This is truely game changing and given that we will observe hundreds to thousands of these planets, we can finally begin to put our solar system into the right galactic context. 
+
+<br>
+<hr class="medium">
+<center><b> Image credits & explanation </b>
+<p> The top is cut-out of the original ARIEL proposal cover (not the yellow book!). It's publically available and looks pretty. The figure in the text is based on TauREx simulations with ARIEL, Hubble and Spitzer insturment sensitivities.   </p>

@@ -12,4 +12,41 @@ categories: [modelling,learning]
 comments: false
 ---
 
-<p>STUFF</p>
+<p>This is an ongoing project where we develop deep learning algorithms capabable of classifying the chemistry of extrasolar planet atmospheres. The algorithm is called RobERt 
+(<a href='https://arxiv.org/abs/1511.08339'>here</a> is the paper) and stands for 'Robotic Exoplanet Recognition'. 
+Deep belief neural networks, or DBNs such as RobERt, were developed more than a decade ago and are commonly used for speech recognition, 
+Internet searches and tracking customer behaviour. RobERt’s DBN has three layers of unit processors, or ‘neurons’. 
+Information is fed into a bottom layer of 500 neurons, which make an initial filter of the data and pass a subset up to the second layer. 
+Here, 200 neurons refine the selection and pass data up to a third layer of 50 neurons to make the final identification of the gases most likely to be present.
+
+To prepare RobERt for his challenge, we created a total of 85,750 simulated spectra, covering five different types of exoplanet ranging from GJ1214b, 
+a potential “ocean planet”, to WASP-12, a hot Jupiter orbiting very close to its star. 
+Each spectrum in the training set contained the fingerprint of a single gas species. 
+RobERt’s learning progress was tested at intervals during the training with ‘control’ spectra. 
+At the end of the training phase, RobERt had a recognition accuracy of 99.7%.
+
+<div style="margin-left:auto;margin-right:auto;display:block">
+<img class="left" src='{{baseurl}}/img/robert.jpg'>
+</div>
+
+The diagram on the left shows RobERt's dream state. When deep neural networks finished learing (say the features of a molecule in an atmosphere or the shape of a cat), you can reverse the neural network 
+to come up with a representation of what it thinks these shapes should look like. In this case, I've asked it to re-produce what the spectral signatures of water, carbon-dioxide and titanium-oxide 
+look like. The bottom two rows compare the dream state (what RobERt thinks they look like) to the real deal. The agreement between both is fantastic! The top pannels show the activations of the network, in other words
+RobERt's neurons, when RobERt dreams of molecules. 
+
+So far RobERt can detect molecules in emission spectra of exoplanets. The next steps are to extend this into transmission spectra and potentially even characterise entire planetary surface compositions. 
+The main advantage of RobERt doing all the classification, rather than full-blown atmospheric retrieval models, is that RobERt only takes a few seconds for an answer (once it's trained) whilst a more 
+classical approach can take many hours on 10s to 100s of CPUs. 
+
+More will follow here shortly (I hope!). For now, I would like you to have a look at <a href="https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html" target="_blank"> this </a> blog. It's 
+what happens when the Google neural networks begin dreaming. They call it "inceptionism". Anyways... I for one welcome our new AI overlords!
+
+</p>
+
+<br>
+
+<hr class="medium">
+<center><b> Image credits & explanation </b>
+<p> I made the top image for the Royal Astronomical Society press release. It is a neural network that was trained to re-draw pictures in the style of Claude Monet. I used <a href='https://github.com/jcjohnson/neural-style' target='_blank'> 
+this </a> code, a water lilly painting and a photograph from Earth. The background was added later.  </p>
+</center>
