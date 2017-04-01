@@ -35,9 +35,9 @@ def write_entry(ar,f,year=False):
     
     if year: 
         f.write('<h2> '+np.str(year)+'</h2>')
-    f.write('<li>')
-    f.write('<p style="margin-left: 40px;font-weight: bold">')
     
+    f.write('<p style="margin-left: 40px;font-weight: bold">')
+    f.write('<li>')
     try:
         f.write('<a target="_blank" href='+ar['link']+'>'+ar['title']+'</a>'+'   ('+ar['year']+')')
     except KeyError:
