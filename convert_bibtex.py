@@ -46,7 +46,7 @@ def write_entry(ar,f,year=False):
         except KeyError:
             f.write(ar['title']+'   ('+ar['year']+')')
         
-    f.write('</p> \n')
+    f.write('</li></p>\n')
     f.write('<p style="margin-left: 70px;line-height: 95%;">')
     f.write(format_authors(ar['author']))
     f.write('<br>')
