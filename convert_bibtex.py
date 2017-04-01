@@ -36,17 +36,18 @@ def write_entry(ar,f,year=False):
     if year: 
         f.write('<h2> '+np.str(year)+'</h2>')
     
-    f.write('<li>')
+    
     f.write('<p style="margin-left: 40px;font-weight: bold">')
+    f.write('<li>')
     try:
-        f.write('<a target="_blank" href='+ar['link']+'>'+ar['title']+'</a>'+'   ('+ar['year']+')')
+        f.write('<b><a target="_blank" href='+ar['link']+'>'+ar['title']+'</a></b>'+'   ('+ar['year']+')')
     except KeyError:
         try:
-            f.write('<a target="_blank" href='+ar['adsurl']+'>'+ar['title']+'</a>'+'   ('+ar['year']+')')   
+            f.write('<b><a target="_blank" href='+ar['adsurl']+'>'+ar['title']+'</a></b>'+'   ('+ar['year']+')')   
         except KeyError:
             f.write(ar['title']+'   ('+ar['year']+')')
         
-    f.write('</p></li>\n')
+    f.write('</li></p>\n')
     f.write('<p style="margin-left: 70px;line-height: 95%;">')
     f.write(format_authors(ar['author']))
     f.write('<br>')
