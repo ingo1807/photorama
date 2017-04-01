@@ -29,6 +29,9 @@ Observations were made by scanning WFC3 very quickly across the star to create a
 Intriguingly, the data also hinted at a signature for hydrogen cyanide, a marker for carbon-rich atmospheres. This is shown in the figure on the left. The green model is consistent with a carbon-rich hydrogen-cyanide (or Prussic acid) atmosphere. The grey bars are the data. 
 Now current observations are only suggestive of HCN. To be absolutely sure, we need to investigate the atmosphere at longer (redder) wavelengths. This is something the James Webb Space Telescope or the ARIEL mission will be able to do with ease. 
 
-
+<br>
+<hr class="medium">
+<center><b> Image credits & explanation </b>
+<p> The top picture was taken from our press release and shows an artist impression of 55 Cnc e orbiting its star. The figure is from our paper.</p>
 
 
