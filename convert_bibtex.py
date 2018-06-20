@@ -27,6 +27,7 @@ def format_journal(jl):
 def format_title(ti):
     ti = np.str(ti)
     ti = ti.replace("{","")
+    ti = ti.replace("}", "")
     return ti
 
 
