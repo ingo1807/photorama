@@ -53,7 +53,10 @@ def write_entry(ar,f,year=False):
     f.write('<br>')
 #     f.write('</p>')
     f.write('<font color="grey">')
-    f.write('journal: '+journal+' | volume: '+ar['volume']+' | page: '+ar['pages'])
+    try:
+        f.write('journal: '+journal+' | volume: '+ar['volume']+' | page: '+ar['pages'])
+    except KeyError:
+        f.write('journal: ' + journal  + ' | page: ' + ar['pages'])
     f.write('</font>')
     f.write('</p> \n')
     f.write('\n')
