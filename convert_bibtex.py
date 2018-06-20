@@ -24,10 +24,17 @@ def format_journal(jl):
     jl = jl.replace("\\sci","Science")
     return jl
 
+def format_title(ti):
+    ti = np.str(ti)
+    ti = ti.replace("{","")
+    return ti
+
 
 def write_entry(ar,f,year=False):
     #writing the HTML code for each entry
-    
+
+    ar['title'] = format_title(ar['title'])
+
     try:
         journal = format_journal(ar['journal'])
     except KeyError:
@@ -74,8 +81,6 @@ out = open(OUTFILE,'wb')
 
 Ncite = len(data.entries)
 print(Ncite)
-
-print(data.entries[2]['month'])
 
 years = []
 for i in range(Ncite):
